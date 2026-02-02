@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игра в пары</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      startGame();
+    })
+  </script>
+</head>
+
+<body>
+  <div class="container d-flex flex-column justify-content-center align-items-center vh-100" id="container">
+    <div class="row justify-content-center" id="game-board"></div>
+    <button class="play-again-btn btn btn-primary" id="play-again-btn">Сыграть еще раз</button>
+  </div>
+</body>
+
+</html>
